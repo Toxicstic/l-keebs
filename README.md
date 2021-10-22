@@ -1,7 +1,7 @@
 LKeebs repository
 =================
 
-### File system
+### File system.
 
 └┬ lkeebs         main folder
  ├―― home         contains all stuff for home app
