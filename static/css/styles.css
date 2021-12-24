@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .curve {
+        @apply absolute 2xl:-mt-32 -mt-24 z-10;
+    }
+    p {
+        white-space: pre-line;
+    }
+  }

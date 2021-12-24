@@ -1,0 +1,33 @@
+{% extends '!base.html' %}
+{% load static %}
+{% load tailwind_tags %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% tailwind_css %}
+</head>
+<body>
+
+    {% block content %}
+
+    <div class="flex">
+
+        <div class="rounded-xl h-96 w-64 bg-gray-300 shadow-xl mt-32 flex-auto ml-32 p-16" id="sideBar">
+
+            <h1>SUBJECTS</h1>
+    
+        </div>
+        
+    </div>
+
+
+    <div class="h-screen"></div>
+
+    {% endblock %}
+    
+</body>
+</html>
