@@ -10,3 +10,6 @@ LKeebs repository
 * ├―― about        contains all stuff for about app
 * ├―― lkeebs       root directory, contains settings for entire project etc.
 * ├―― static       contains all the files you need the most for front-end dev, like templates
+
+### Home page:
+![alt text](http://url/to/img.png)
