@@ -1,0 +1,28 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/base.css/' %}">
+
+<!-- Head -->
+<head>
+    <link rel="shortcut icon" href="{% static 'images/favicon.png/' %}" type="image/x-icon" />
+</head>
+
+<!-- Navbar -->
+<header>
+    <img    class='navBarDesign' onclick="location.href='/'" src="{% static '/images/placeholder/128.png' %}">
+    <button class='navBarButton' onclick="location.href='/'"     >home</button>
+    <button class='navBarButton' onclick="location.href='/shop'" >shop</button>
+    <button class='navBarButton' onclick="location.href='/forum'">forums</button>
+    <button class='navBarButton' onclick="location.href='/blog'" >blog</button>
+    <button class='navBarButton' onclick="location.href='/about'" >about</button>
+    <button class='navBarButton' onclick="location.href='/cart'" >cart</button>
+</header>
+
+<!-- Hier komt de pagina -->
+{% block content %}
+
+{% endblock %}
+
+<!-- Footer -->
+<footer>
+    <p>fooooooooooooter</p>
+</footer>

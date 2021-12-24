@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/shop.css/' %}">
+    <title>L Keebs - Shop</title>
+</head>
+<body>
+    <!-- Banner -->
+    <div class="banner">
+        <img class="bannerImage" src="{% static 'images\banner.jpg' %}">
+        <h1 class='bannerText'>Mechanical Keyboard Shop</h1>
+    </div>
+    
+    <h2>All items:</h2>
+
+    <div class="shopTable">
+        <div class="shopListing">
+            <img src="{% static '/images/placeholder/1024.png' %}">
+            <h3>PLACEHOLDER</h3>
+            <p>€ 999,-</p>
+        </div>
+    </div>
+
+</body>
+</html>
+{% endblock %}
