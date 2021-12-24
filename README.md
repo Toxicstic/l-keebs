@@ -12,4 +12,4 @@ LKeebs repository
 * ├―― static       contains all the files you need the most for front-end dev, like templates
 
 ### Home page:
-![alt text](http://url/to/img.png)
+![home page](https://raw.githubusercontent.com/Toxicstic/l-keebs/main/haha.png)
